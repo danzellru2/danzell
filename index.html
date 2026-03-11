@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Portafolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-brand">
+      <span class="nav-dot"></span>
+      <div>
+        <span class="nav-name">DANZELL PAOLO</span>
+        <span class="nav-title">Desarrollador / Tecnico</span>
+      </div>
+    </div>
+    <ul class="nav-links">
+       <li><a href="CV\CV PAOLO.pdf" class="nav-link">CV</a></li>
+      <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+      <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+      <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+      <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+      <li><a href="#contacto" class="nav-link">Contacto</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-left">
+      <div class="photo-ring">
+        <div class="photo-placeholder">
+          <!-- Reemplaza este div con: <img src="tu-foto.jpg" alt="Tu Nombre"> -->
+           <!--  <div class="photo-icon">📷</div>-->
+          <img src="img\imagenportafolio2.png" alt="Tu Nombre">
+
+        </div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-tag">✦ Bienvenido a mi portafolio</div>
+      <h1 class="hero-name">Danzell<br/><em>Paolo</em></h1>
+      <h2 class="hero-subtitle">Desarrollador &amp; Tecnico Informatico</h2>
+      <p class="hero-bio">
+        Apasionado por crear experiencias digitales únicas. Me especializo en desarrollo web moderno, 
+        diseño de interfaces y soluciones creativas que combinan estética con funcionalidad.
+      </p>
+      <div class="hero-nav-circles">
+        <a href="#sobre-mi" class="circle-btn" style="--c:#7EC8A4">Sobre mí</a>
+        <a href="#proyectos" class="circle-btn" style="--c:#F4A261">Proyectos</a>
+        <a href="#habilidades" class="circle-btn" style="--c:#6BBFD4">Habilidades</a>
+        <a href="#contacto" class="circle-btn" style="--c:#C4C4C4">Contacto</a>
+      </div>
+    </div>
+    <div class="hero-deco"></div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="section sobre-mi" id="sobre-mi">
+    <div class="section-inner">
+      <div class="section-label">01 — Sobre mí</div>
+      <h2 class="section-title">Un poco <em>sobre mí</em></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Soy estudiante y profesional con experiencia en <strong>diseño y desarrollo web</strong>. Me apasiona resolver problemas complejos con soluciones elegantes y accesibles.</p>
+          <p>Actualmente estudio y trabajo en proyectos que combinan creatividad y tecnología para generar impacto real. Siempre estoy aprendiendo algo nuevo.</p>
+          <div class="about-tags">
+            <span class="tag">Diseño UI/UX</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">c++</span>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">+5</span>
+            <span class="stat-label">Proyectos completados</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Años de experiencia</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">+3</span>
+            <span class="stat-label">Clientes satisfechos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section proyectos" id="proyectos">
+    <div class="section-inner">
+      <div class="section-label">02 — Proyectos</div>
+      <h2 class="section-title">Mi <em>trabajo</em></h2>
+      <div class="projects-grid">
+
+        <div class="project-card" style="--accent:#F4A261">
+          <div class="project-img project-img-1">
+            <span class="project-emoji">🚀</span>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Web App</span>
+            <h3>Nombre del Proyecto 1</h3>
+            <p>Descripción breve del proyecto. Tecnologías usadas y problema que resuelve.</p>
+            <div class="project-links">
+              <a href="#" class="btn-link">Ver demo →</a>
+              <a href="#" class="btn-link-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" style="--accent:#7EC8A4">
+          <div class="project-img project-img-2">
+            <span class="project-emoji">🎨</span>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Diseño UI</span>
+            <h3>Nombre del Proyecto 2</h3>
+            <p>Descripción breve del proyecto. Tecnologías usadas y problema que resuelve.</p>
+            <div class="project-links">
+              <a href="#" class="btn-link">Ver demo →</a>
+              <a href="#" class="btn-link-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" style="--accent:#6BBFD4">
+          <div class="project-img project-img-3">
+            <span class="project-emoji">📊</span>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Data</span>
+            <h3>Nombre del Proyecto 3</h3>
+            <p>Descripción breve del proyecto. Tecnologías usadas y problema que resuelve.</p>
+            <div class="project-links">
+              <a href="#" class="btn-link">Ver demo →</a>
+              <a href="#" class="btn-link-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="section habilidades" id="habilidades">
+    <div class="section-inner">
+      <div class="section-label">03 — Habilidades</div>
+      <h2 class="section-title">Lo que <em>sé hacer</em></h2>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h4>Frontend</h4>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>HTML/CSS</span><div class="bar"><div class="fill" style="width:70%; --c:#F4A261"></div></div></div>
+            <div class="skill-bar"><span>JavaScript</span><div class="bar"><div class="fill" style="width:80%; --c:#F4A261"></div></div></div>
+            <div class="skill-bar"><span>React</span><div class="bar"><div class="fill" style="width:60%; --c:#F4A261"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4>Backend</h4>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>Node.js</span><div class="bar"><div class="fill" style="width:50%; --c:#7EC8A4"></div></div></div>
+            <div class="skill-bar"><span>Python</span><div class="bar"><div class="fill" style="width:40%; --c:#7EC8A4"></div></div></div>
+            <div class="skill-bar"><span>SQL</span><div class="bar"><div class="fill" style="width:65%; --c:#7EC8A4"></div></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h4>Diseño</h4>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>css</span><div class="bar"><div class="fill" style="width:80%; --c:#6BBFD4"></div></div></div>
+            <div class="skill-bar"><span>Illustrator</span><div class="bar"><div class="fill" style="width:20%; --c:#6BBFD4"></div></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section contacto" id="contacto">
+    <div class="section-inner contacto-inner">
+      <div class="section-label">04 — Contacto</div>
+      <h2 class="section-title">Hablemos <em>✦</em></h2>
+      <p class="contacto-sub">¿Tienes un proyecto en mente? Escríbeme y con gusto colaboramos.</p>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <input type="text" placeholder="Tu nombre" required/>
+          <input type="email" placeholder="Tu correo" required/>
+        </div>
+        <input type="text" placeholder="Asunto"/>
+        <textarea placeholder="Cuéntame sobre tu proyecto..." rows="5" required></textarea>
+        <button type="submit" class="btn-submit">Enviar mensaje →</button>
+      </form>
+      <div class="social-links">
+        <a href="#" class="social-pill">LinkedIn</a>
+        <a href="#" class="social-pill">GitHub</a>
+        <a href="https://x.com/PaoloDanze93395" class="social-pill">X</a>
+        <a href="mailto:danzellpaoloa1234@gmail.com" class="social-pill">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span class="nav-dot"></span>
+    <span>DANZELL PAOLO ARELLANO PADILLA · <em>Portafolio 2025</em></span>
+    <span>Hecho con ♥</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
