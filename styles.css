@@ -353,8 +353,6 @@ body {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  font-size: unset;
-  border-radius: 0;
 }
 
 .project-info { padding: 24px; }
