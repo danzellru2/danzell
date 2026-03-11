@@ -119,7 +119,7 @@ body {
 
 /* Photo */
 .photo-ring {
-  width: 360px; height: 360px;
+  width: 480px; height: 480px;
   border-radius: 50%;
   padding: 6px;
   background: linear-gradient(135deg, var(--accent-blue), var(--accent-green));
