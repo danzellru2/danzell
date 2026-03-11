@@ -77,18 +77,17 @@ Creación, dirección y desarrollo de sistemas web. Trabajo en equipos multidisc
 
 ## 📊 Stats de GitHub
 
-![Danzell's GitHub stats](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=tokyonight)
+![Danzell's GitHub stats](https://github-readme-stats.vercel.app/api?username=danzellru2&show_icons=true&theme=tokyonight)
 
-> ⚠️ *Reemplaza `TU_USUARIO` con tu nombre de usuario real en GitHub para que aparezcan tus estadísticas.*
+
 
 ---
 
 ## 📬 Contáctame
 
-- 📧 **Email:** danzell.nf
+- 📧 **Email:** danzellpaolo1234@gmail.com
 - 📍 **Ubicación:** Monterrey, Nuevo León, México
-- 🔗 **LinkedIn:** *(agrega tu perfil aquí)*
-- 💻 **Portafolio:** *(agrega el link de tu portafolio aquí)*
+- 💻 **Portafolio:** *()*
 
 ---
 
